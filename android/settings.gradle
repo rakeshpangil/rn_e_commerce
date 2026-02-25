@@ -1,0 +1,6 @@
+pluginManagement { includeBuild("../node_modules/@react-native/gradle-plugin") }
+plugins { id("com.facebook.react.settings") }
+extensions.configure(com.facebook.react.ReactSettingsExtension){ ex -> ex.autolinkLibrariesFromCommand(["/home/rakesh/.nvm/versions/node/v20.20.0/bin/npx", "@react-native-community/cli", "config"]) }
+rootProject.name = 'rn_e_commerce'
+include ':app'
+includeBuild('../node_modules/@react-native/gradle-plugin')
