@@ -1,4 +1,4 @@
-# 📱 ShopNative — React Native E-Commerce Study Project
+# React Native E-Commerce Project
 
 > A **fully commented, beginner-to-advanced** React Native e-commerce app
 > built specifically for deep-diving into RN concepts.
